@@ -199,17 +199,17 @@ function submit(){
         context.fillStyle = '#bf616a';
         context.font = "72px base";
         context.fillText("Physique:", 10, 10+72); 
-        context.fillText("Muscle:", 10+(480*2)*4, 10+72); 
-        context.fillText("Breast Size:", 10+(480*2), 10+72); 
-        context.fillText("Butt Size:", 10+(480*2)*2, 10+72); 
-        context.fillText("Hair:", 10+(480*2)*3, 10+72); 
+        context.fillText("Muscle:", 10+(480*2), 10+72); 
+        context.fillText("Breast Size:", 10+(480*2)*2, 10+72); 
+        context.fillText("Butt Size:", 10+(480*2)*3, 10+72); 
+        context.fillText("Hair:", 10+(480*2)*4, 10+72); 
         context.fillText("Species", 10+(480*2)*5, 10+72); 
         context.fillStyle = '#eceff4';
         context.fillText(physique.getElementsByTagName('h1')[0].textContent, 10, 20+72*2); 
-        context.fillText(muscle.getElementsByTagName('h1')[0].textContent, 10+(480*2)*4, 20+72*2); 
-        context.fillText(breast.getElementsByTagName('h1')[0].textContent, 10+(480*2), 20+72*2); 
-        context.fillText(butt.getElementsByTagName('h1')[0].textContent, 10+(480*2)*2, 20+72*2); 
-        context.fillText(hair.getElementsByTagName('h1')[0].textContent, 10+(480*2)*3, 20+72*2); 
+        context.fillText(muscle.getElementsByTagName('h1')[0].textContent, 10+(480*2), 20+72*2); 
+        context.fillText(breast.getElementsByTagName('h1')[0].textContent, 10+(480*2)*2, 20+72*2); 
+        context.fillText(butt.getElementsByTagName('h1')[0].textContent, 10+(480*2)*3, 20+72*2); 
+        context.fillText(hair.getElementsByTagName('h1')[0].textContent, 10+(480*2)*4, 20+72*2); 
         context.fillText(species.getElementsByTagName('h1')[0].textContent, 10+(480*2)*5, 20+72*2); 
 
         //context.drawImage(PImg, 0, 0, PImg.naturalWidth, PImg.naturalHeight, 0, 0,480, 600);
